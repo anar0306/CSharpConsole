@@ -14,7 +14,7 @@ namespace ConsoleMusicPlayer
 
                 while (!exitRequested)
                 {
-                    string folderPath = @"C:\Users\HEQT-PC\Music\";
+                    string folderPath = @"C:\Users\UserName\Music\";
 
                     string[] musicFiles = Directory.GetFiles(folderPath, "*.mp3");
 
